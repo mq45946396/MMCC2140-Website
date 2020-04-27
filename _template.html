@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>MMCC2140</title>
+	<title>{page} - Tom's Burger Company</title>
 	<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 	<header>
+		<!--
+			this must be defined in the HTML before the logo so that
+			it rests on the same line as the logo.
+			Source: https://stackoverflow.com/questions/14471662/how-to-make-the-float-left-and-float-right-on-the-same-line
+		 -->
+		<nav class="nav-bar">
+			<span><a href="index.html">Home</a></span>
+			<span><a href="story.html">Our Story</a></span>
+			<span><a href="menu.html">Menu</a></span>
+			<span><a href="contact.html">Contact</a></span>
+		</nav>
 		<div class="logo">
 			<h1>TBC</h1>
 			<span>Tom's</span>
 			<span>Burger</span>
 			<span>Company</span>
 		</div>
-		<nav class="nav-bar">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="story.html">Our Story</a></li>
-				<li><a href="menu.html">Menu</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
 	</header>
 	<main>
 		<!-- content goes here -->
 	</main>
+	<footer>
+
+	</footer>
 </body>
 </html>
