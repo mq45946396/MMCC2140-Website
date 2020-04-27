@@ -32,3 +32,8 @@ header nav span a {
 header nav span.active a {
     border-bottom: 2px solid #313131;
 }
+header nav span:not(.active) a:hover {
+    transition: 0.3s;
+    color: #707070;
+    border-bottom: 2px solid #707070;
+}
