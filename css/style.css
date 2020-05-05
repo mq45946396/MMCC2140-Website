@@ -5,7 +5,7 @@ header {
     left: 0px;
     width: 100%;
     height: 80px;
-    background: red;
+    background: #dbdbdb;
 }
 header h1 {
     margin: 0 10px;
@@ -37,4 +37,13 @@ header nav span:not(.active) a:hover {
     transition: 0.3s;
     color: #707070;
     border-bottom: 2px solid #707070;
+}
+
+/* ============= FOOTER ============= */
+footer {
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 15px;
+    background: red;
 }
