@@ -102,3 +102,9 @@ footer section a {
 footer section p.header {
     font-weight: bold;
 }
+
+/* =============  MENU  ============= */
+ul.menu-items p {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
