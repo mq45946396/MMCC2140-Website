@@ -20,6 +20,10 @@ header .logo span {
     display: block;
     line-height: calc(70px / 3);
 }
+header .logo a {
+    color: black;
+    text-decoration: none;
+}
 header nav {
     padding: 0 10px;
     float: right;
