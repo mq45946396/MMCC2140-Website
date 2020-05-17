@@ -1,3 +1,7 @@
+/* =============  PAGE  ============= */
+body {
+    padding-top: 80px;
+}
 /* ============= HEADER ============= */
 header {
     position: fixed;
@@ -37,6 +41,10 @@ header nav span:not(.active) a:hover {
     transition: 0.3s;
     color: #707070;
     border-bottom: 2px solid #707070;
+}
+header img.logo {
+    float: left;
+    height: 70px;
 }
 
 /* ============= FOOTER ============= */
