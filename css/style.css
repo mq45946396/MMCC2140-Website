@@ -53,9 +53,38 @@ header img.logo {
 
 /* ============= FOOTER ============= */
 footer {
+    position: absolute;
     left: 0px;
     bottom: 0px;
     width: 100%;
-    height: 15px;
-    background: red;
+    background: #A8A8A8;
+    text-align: center;
+    padding: 15px 0;
+}
+footer section {
+    display: inline-block;
+    margin: auto 0;
+    text-align: left;
+    margin: 0 15px;
+}
+footer section.title {
+    line-height: 100%;
+}
+footer section.title p {
+    vertical-align: middle;
+}
+footer section.nav-links-l {
+    margin-right: 0px;
+}
+footer section.nav-links-r {
+    margin-left: 0px;
+}
+footer section p {
+    margin: 0;
+}
+footer section a {
+    color: black;
+}
+footer section p.header {
+    font-weight: bold;
 }
