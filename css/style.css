@@ -1,7 +1,9 @@
 /* =============  PAGE  ============= */
 body {
+    margin: 0;
     padding-top: 80px;
 }
+
 /* ============= HEADER ============= */
 header {
     position: fixed;
@@ -51,9 +53,14 @@ header img.logo {
     height: 70px;
 }
 
+/* =============  MAIN  ============= */
+main {
+    padding: 8px;
+}
+
 /* ============= FOOTER ============= */
 footer {
-    position: absolute;
+    position: relative;
     left: 0px;
     bottom: 0px;
     width: 100%;
