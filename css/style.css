@@ -68,6 +68,13 @@ footer {
     text-align: center;
     padding: 15px 0;
 }
+footer.pin-to-bottom {
+    /* 
+     * pins footer to bottom for pages without
+     * enough content to push it off screen
+     */
+    position: fixed;
+}
 footer section {
     display: inline-block;
     margin: auto 0;
