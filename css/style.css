@@ -23,7 +23,7 @@ header .logo span {
     line-height: calc(70px / 3);
 }
 header .logo a {
-    color: black;
+    color: #000000;
     text-decoration: none;
 }
 header nav {
@@ -102,13 +102,22 @@ footer section p {
     margin: 0;
 }
 footer section a {
-    color: black;
+    color: #000000;
 }
 footer section p.header {
     font-weight: bold;
 }
 
 /* =============  MENU  ============= */
+main.menu-page {
+    padding: 0 20%;
+}
+main.menu-page section {
+    background: #a8a8a8;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
 ul.menu-items p {
     font-weight: bold;
     margin-bottom: 0px;
