@@ -68,6 +68,9 @@ header img.logo {
 main {
     padding: 8px;
 }
+main.no-pad {
+    padding: 0px;
+}
 
 /* ============= FOOTER ============= */
 footer {
