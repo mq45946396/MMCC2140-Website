@@ -134,3 +134,28 @@ ul.menu-items p {
     font-weight: bold;
     margin-bottom: 0px;
 }
+
+/* =============  HOME  ============= */
+section.index-landing {
+    background: url("../img/placeholder.png");
+    background-size: cover;
+    font-size: 3em;
+    font-family: "coves", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    line-height: 600px;
+
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1.5s;
+}
+
+/* =============  ANIMATIONS  ============= */
+@keyframes fadeIn {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
