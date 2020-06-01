@@ -156,7 +156,7 @@ ul.menu-items p {
 
 /* =============  HOME  ============= */
 main.home section {
-    height: 200px;
+    height: 400px;
 }
 section.index-landing {
     background: url("../img/placeholder.png");
@@ -190,6 +190,10 @@ section.extra-pad {
 section img.bg-left {
     height: 100%;
     float: left;
+}
+section img.bg-right {
+    height: 100%;
+    float: right;
 }
 
 /* =============  ANIMATIONS  ============= */
