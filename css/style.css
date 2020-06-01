@@ -155,6 +155,9 @@ ul.menu-items p {
 }
 
 /* =============  HOME  ============= */
+main.home section {
+    height: 200px;
+}
 section.index-landing {
     background: url("../img/placeholder.png");
     background-size: cover;
@@ -165,7 +168,7 @@ section.index-landing {
     color: white;
     text-align: center;
     width: 100%;
-    height: 600px;
+    height: 600px !important;
     line-height: 600px;
     margin: 0;
     padding: 0;
@@ -183,6 +186,10 @@ section.align-right {
 section.extra-pad {
     margin-top: 40px;
     margin-bottom: 40px;
+}
+section img.bg-left {
+    height: 100%;
+    float: left;
 }
 
 /* =============  ANIMATIONS  ============= */
