@@ -171,7 +171,6 @@ ul.menu-items p {
 /* =============  HOME  ============= */
 main.home section {
     height: 400px;
-    clear: both;
 }
 section.index-landing {
     background: url("../img/placeholder.png");
@@ -209,9 +208,13 @@ section img.bg-right {
     height: 100%;
     float: right;
 }
+section div.img-clear {
+    clear: both;
+}
 section.links {
     background: #00255c;
     color: #ffffff;
+    padding-top: 150px;
 }
 
 
