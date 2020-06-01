@@ -171,6 +171,7 @@ ul.menu-items p {
 /* =============  HOME  ============= */
 main.home section {
     height: 400px;
+    clear: both;
 }
 section.index-landing {
     background: url("../img/placeholder.png");
@@ -219,3 +220,13 @@ section.links {
     0%   { opacity: 0; }
     100% { opacity: 1; }
 }
+
+/* ============= BLURRING ============= */
+@supports(backdrop-filter: blur(20px)) {
+    header {
+        background: #dbdbdba2;
+        backdrop-filter: blur(20px);
+    }
+}
+
+/* 1230px */
