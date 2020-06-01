@@ -146,6 +146,11 @@ a.button {
     padding: 15px;
     border-radius: 10px;
     text-decoration: none;
+    transition: 0.2s;
+}
+a.button:hover {
+    background: #a10059;
+    text-shadow: 1 1 10px rgba(0,0,0,0.7);
 }
 
 /* =============  MENU  ============= */
