@@ -139,6 +139,15 @@ footer section p.header {
     font-weight: bold;
 }
 
+/* =============  BUTTON  ============= */
+a.button {
+    background: #d80077;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
 /* =============  MENU  ============= */
 main.menu-page {
     padding: 0 20%;
@@ -184,8 +193,7 @@ section.align-right {
     text-align: right;
 }
 section.extra-pad {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 150px;
 }
 section img.bg-left {
     height: 100%;
@@ -195,6 +203,11 @@ section img.bg-right {
     height: 100%;
     float: right;
 }
+section.links {
+    background: #00255c;
+    color: #ffffff;
+}
+
 
 /* =============  ANIMATIONS  ============= */
 @keyframes fadeIn {
