@@ -173,8 +173,9 @@ main.home section {
     height: 400px;
 }
 section.index-landing {
-    background: url("../img/placeholder.png");
+    background: url("../img/landing.JPG");
     background-size: cover;
+    background-position-y: 50%;
     font-size: 3em;
     font-family: "coves", Helvetica, Arial, sans-serif;
     font-weight: bold;
