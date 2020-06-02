@@ -150,6 +150,7 @@ a.button {
     border-radius: 10px;
     text-decoration: none;
     transition: 0.2s;
+    cursor: pointer;
 }
 a.button:hover {
     background: #a10059;
