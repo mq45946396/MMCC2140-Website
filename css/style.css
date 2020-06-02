@@ -168,10 +168,10 @@ ul.menu-items p {
 }
 main.menu-page section img {
     height: 300px;
+    display: block;
+}
+main.menu-page section div.img-container {
     float: right;
-    border: 5px solid #ffffff;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
-    margin: 5px;
 }
 
 /* =============  HOME  ============= */
@@ -201,11 +201,13 @@ section.fade-in {
     animation-timing-function: ease-in;
     animation-duration: 1.5s;
 }
-section.align-right {
-    text-align: right;
-}
 section.extra-pad {
     margin-top: 150px;
+}
+section img {
+    border: 5px solid #ffffff;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    margin: 10px;
 }
 section img.bg-left {
     height: 100%;
