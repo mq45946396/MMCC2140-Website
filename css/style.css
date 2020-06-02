@@ -256,6 +256,26 @@ section.timeline-end {
     background-image: url("../img/timeline-end.png");
 }
 
+/* ============= CONTACT ============= */
+section.address {
+    background: #dbdbdb;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    overflow: auto;
+    padding: 10px;
+}
+section.address span {
+    display: block;
+}
+section.address div.map {
+    float: right;
+}
+section.address iframe {
+    border: 5px solid #ffffff;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    margin: 10px;
+}
+
 /* =============  ANIMATIONS  ============= */
 @keyframes fadeIn {
     0%   { opacity: 0; }
