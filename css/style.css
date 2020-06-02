@@ -87,6 +87,9 @@ main.no-pad {
 main.no-pad section {
     padding: 0 200px;
 }
+main.info-page {
+    padding: 0 20%;
+}
 
 /* ============= FOOTER ============= */
 footer {
@@ -154,9 +157,6 @@ a.button:hover {
 }
 
 /* =============  MENU  ============= */
-main.menu-page {
-    padding: 0 20%;
-}
 main.menu-page section {
     padding: 10px;
     margin-bottom: 20px;
@@ -232,6 +232,29 @@ section.links {
     padding-top: 150px;
 }
 
+/* ============= TIMELINE ============= */
+main.timeline section {
+    height: 150px;
+    line-height: 150px;
+    background-size: 150px;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    padding-left: 130px;
+}
+main.timeline section h3, main.timeline section p {
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+section.timeline-start {
+    background-image: url("../img/timeline-top.png");
+}
+section.timeline-mid {
+    background-image: url("../img/timeline-mid.png");
+}
+section.timeline-end {
+    background-image: url("../img/timeline-end.png");
+}
 
 /* =============  ANIMATIONS  ============= */
 @keyframes fadeIn {
