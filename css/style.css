@@ -172,6 +172,12 @@ main.menu-page section img {
 }
 main.menu-page section div.img-container {
     float: right;
+    text-align: right;
+}
+main.menu-page section div.img-container span {
+    font-weight: bold;
+    font-size: 0.75em;
+    padding-right: 15px;
 }
 
 /* =============  HOME  ============= */
