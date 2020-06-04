@@ -237,11 +237,13 @@ section.links {
 /* ============= TIMELINE ============= */
 main.timeline section {
     height: 150px;
-    line-height: 150px;
+    padding-top: calc(150px / 2 - 20px);
+    /* line-height: 150px; */
     background-size: 150px;
     background-position-x: left;
     background-repeat: no-repeat;
     padding-left: 130px;
+    box-sizing: border-box;
 }
 main.timeline section h3, main.timeline section p {
     padding: 0;
