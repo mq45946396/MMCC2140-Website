@@ -21,6 +21,7 @@
 body {
     margin: 0;
     padding-top: 80px;
+    background: #e7ca8c;
 }
 section h2 {
     font-size: 3em;
@@ -296,9 +297,8 @@ section.address .buttons {
 /* ============= BLURRING ============= */
 @supports(backdrop-filter: blur(20px)) {
     header {
-        background: #dbdbdba2;
+        /* background: #dbdbdba2; */
+        background: #5ed9ffa2;
         backdrop-filter: blur(20px);
     }
 }
-
-/* 1230px */
