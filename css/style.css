@@ -18,7 +18,13 @@
     src: url("../fonts/Poppins\ Regular.ttf");
 }
 /* =============  PAGE  ============= */
+html {
+    height: 100%;
+}
 body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     margin: 0;
     padding-top: 80px;
     background: #e7ca8c;
@@ -81,6 +87,7 @@ header img.logo {
 main {
     padding: 8px;
     font-family: "poppins", Helvetica, Arial, sans-serif;
+    flex: 1 0 auto;
 }
 main.no-pad {
     padding: 0px;
@@ -108,6 +115,7 @@ footer {
     text-align: center;
     padding: 15px 0;
     font-family: "coves", Helvetica, Arial, sans-serif;
+    flex-shrink: 0;
 }
 footer.pin-to-bottom {
     /* 
